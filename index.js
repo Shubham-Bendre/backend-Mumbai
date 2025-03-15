@@ -27,9 +27,6 @@ app.use("/api/notifications", notificationRouter); // Mount the notification rou
 const cattleRoutes = require('./Routes/cattleRoutes');
 
 app.use('/api/cattle', cattleRoutes);
-// Initialize the chat server
-initializeChatServer(server);
-
 
 app.use('/api/rsvp', rsvpRoutes);
 
