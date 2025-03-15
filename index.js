@@ -4,7 +4,6 @@ const cors = require("cors");
 require("dotenv").config();
 
 const EmployeeRoutes = require("./Routes/EmployeeRoutes");
-const { initializeChatServer } = require("./chatServer.js");
 const notificationRouter = require("./notificationServer"); // Import the notification server routes
 
 const app = express();
