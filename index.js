@@ -7,7 +7,6 @@ const EmployeeRoutes = require("./Routes/EmployeeRoutes");
 const notificationRouter = require("./notificationServer"); // Import the notification server routes
 
 const app = express();
-const server = createServer(app); // Create an HTTP server
 const PORT = process.env.PORT || 8080;
 
 const rsvpRoutes = require('./Routes/RSVPRoutes');
