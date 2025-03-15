@@ -10,6 +10,9 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 const rsvpRoutes = require('./Routes/RSVPRoutes');
+const http = require("http");
+
+const server = http.createServer(app);
 
 
 // MongoDB connection (ensure this is handled in db.js and only called once)
