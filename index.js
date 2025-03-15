@@ -1,7 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-const { createServer } = require("http");
 require("dotenv").config();
 
 const EmployeeRoutes = require("./Routes/EmployeeRoutes");
